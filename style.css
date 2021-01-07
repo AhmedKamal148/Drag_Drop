@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #962600;
+}
+
+.fill {
+    background-image: url('diogo-fagundes-dbBKeN1s8GY-unsplash.jpg');
+    background-size: cover;
+    position: relative;
+    height: 155px;
+    width: 155px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+
+
+
+}
+
+.empty {
+    display: inline-block;
+    height: 170px;
+    width: 170px;
+    background-color: #ffff;
+    border: 3px rgb(139, 10, 10) solid;
+    margin: 10px;
+
+}
+
+.hold {
+    border: solid #ccc 4px;
+}
+
+.hoverd {
+    background-color: #f4f4f4;
+    border-style: dashed;
+}
+
+.invisible {
+    display: none;
+}
